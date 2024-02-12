@@ -1,3 +1,32 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "singhch.in"
+languageCode = "en-us"
+title = "chinsingh"
+theme="archie"
+copyright = "© Chinmay Singh"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+[params]
+	mode="toggle"
+	useCDN=false
+
+[[menu.main]]
+name = "posts"
+url = "/posts"
+weight = 1
+
+[[menu.main]]
+name = "tags"
+url = "/tags"
+weight = 2
+
+[[menu.main]]
+name = "notes"
+url = "https://singhch.in/notes"
+weight = 3
+
+
+[[menu.main]]
+name = "about"
+url = "/about"
+weight = 4
