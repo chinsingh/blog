@@ -1,6 +1,6 @@
 +++
 title = 'How topological sort is a natural outcome of reversing Postorder DFS'
-date = 2024-02-16
+date = 2024-01-28T20:14:48+05:30
 draft = false
 tags = ['CS', 'DSA', 'Graph Theory']
 description = 'Reversing the result of a postorder DFS can result in a topological sort order for any graph. Its fairly intuitive how.'
