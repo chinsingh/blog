@@ -14,7 +14,7 @@ I once had to design classes for a configuration and resource manager, where the
 
 Considering the pros, cons and ideal use cases for interfaces and abstract classes; and what was more suitable for this scenario, I went with abstract class as the base for these classes, since these were a group of closely related classes with some behavioral differences.
 
-I was almost through with the implementation, when I came across [this post](https://stackoverflow.com/questions/243274/how-to-unit-test-abstract-classes-extend-with-stubs) from Stack overflow (as we all do at some point in our day). Basically, the answers all advised to not use Abstract classes at all. And the answer from Nigel Thorne almost led me to refactor my code. But the same answer also made me wait and let my code age.
+I was almost through with the implementation, when I came across [this post](https://stackoverflow.com/questions/243274/how-to-unit-test-abstract-classes-extend-with-stubs) from Stack overflow (as we all do at some point in our day). Basically, the answers all advised to not use Abstract classes at all. And the answer from Nigel Thorne almost led me to refactor my code. But the same answer also made me wait and let my code age. 
 
 ## The only two uses of Abstract class
 
