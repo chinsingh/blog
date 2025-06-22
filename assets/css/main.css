@@ -13,7 +13,7 @@
     html {
       color: #232333;
       font-family: 'Roboto Mono', monospace;
-      font-size: 15px;
+      font-size: 12px;
       line-height: 1.6em;
     }
     body{
@@ -157,7 +157,7 @@
     }
     
     header .main {
-      font-size: 1.5rem;
+/*       font-size: 1.5rem; */
     }
     h1, h2, h3, h4, h5, h6 {
       font-size: 1.2rem;
