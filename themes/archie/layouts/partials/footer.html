@@ -1,16 +1,19 @@
 <footer>
-  <div style="display:flex">
+<!--   <div style="display:flex">
     {{- range $index, $key := .Site.Params.Social -}}
     <a class="soc" href="{{ $key.url }}" rel="me" title="{{ $key.name }}"><i data-feather="{{ $key.icon }}"></i></a>
     <a class="border"></a>
     {{- end -}}
-  </div>
+  </div> -->
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
-      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+<!--     {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a> -->
+      Subscribe via rss, <a href="/subscribe" >email</a> or just say <a href="mailto:chinsingh@outlook.in">hello</a>.
   </div>
 </footer>
-{{ if not .Site.IsServer }}
+
+
+<!-- {{ if not .Site.IsServer }}
 {{ template "_internal/google_analytics_async.html" . }}
 {{ end }}
 
@@ -19,3 +22,4 @@
   feather.replace()
 </script>
 {{- end -}}
+ -->
