@@ -1,0 +1,10 @@
+# Subscribe to this blog
+
+<form
+  action="https://formspree.io/f/xwpbngwj"
+  method="POST"
+>
+    <input type="email" name="email" placeholder="Email address">
+  <!-- your other form fields go here -->
+  <button type="submit">Subscribe</button>
+</form>
