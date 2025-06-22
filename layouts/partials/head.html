@@ -1,15 +1,20 @@
 <header>
 	<div class="main">
-		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-		
+<!-- 		<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> -->
+		<nav>
+			{{ range .Site.Menus.main }}
+			<a href="{{ .URL }}">{{ .Name }}</a>
+			{{ end }}
+		</nav>
+
+	</div>
 		{{ if eq .Site.Params.mode "toggle" -}}
         <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
 		<script src="{{ .Site.BaseURL }}js/themetoggle.js"></script>
 		{{ end }}
-	</div>
-	<nav>
+	<!-- 	<nav>
 		{{ range .Site.Menus.main }}
 		<a href="{{ .URL }}">{{ .Name }}</a>
 		{{ end }}
-	</nav>
+	</nav> -->
 </header>
